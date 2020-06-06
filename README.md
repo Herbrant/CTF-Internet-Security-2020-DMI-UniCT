@@ -1,1 +1,1 @@
-# CTF-Internet-Security-2020-DMI-UniCT
+# CTF Internet Security 2020 DMI - UniCT
