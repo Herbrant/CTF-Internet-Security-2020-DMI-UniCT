@@ -1,328 +1,295 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>CTF 2020</title>
-
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-    
-    <link rel="stylesheet" href="css/bootstrap4-neon-glow.min.css">
-    <link rel="icon" type="image/png" href="media/hacker.svg"/>
-    
-    
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link rel='stylesheet' href='//cdn.jsdelivr.net/font-hack/2.020/css/hack.min.css'>
-    <link rel='stylesheet' href='css/custom.css'>
-    
-  </head>
-  <body>
-
-
-  <div class="navbar-dark text-white">
-    <div class="container>
-      <nav class="navbar px-0 navbar-expand-lg navbar-dark">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a href="#home" class="pl-md-0 p-3 text-light">Home</a>
-            <a href="#teams" class="p-3 text-decoration-none text-light">I team</a>
-            <a href="#writeups" class="p-3 text-decoration-none text-light">Write-ups</a>
-            <a href="#media" class="p-3 text-decoration-none text-light">Media</a>
-            <a href="#contacts" class="p-3 text-decoration-none text-light">Contatti</a>
-          </div>
-        </div>
-      </nav>
-
-    </div>
-  </div>
-
-
-<div class="jumbotron bg-transparent mb-0 radius-0" id="home">
-  <div class="d-flex justify-content-center text-center>
-      <div class="row">
-        <div class="col">
-          <h1 class="display-2 text-center">Capture the Flag 202<span class="vim-caret">0</span></h1>
-          <div class="row">
-            <div class="col-md-12 ">
-              <img class="card-img-top" style="display:block; width: 20rem; height: 20rem; margin: auto;" src="media/hacker.svg" alt="Card image cap">
+   <head>
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <title>CTF 2020</title>
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+      <link rel="stylesheet" href="css/bootstrap4-neon-glow.min.css">
+      <link rel="icon" type="image/png" href="media/hacker.svg"/>
+      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+      <link rel='stylesheet' href='//cdn.jsdelivr.net/font-hack/2.020/css/hack.min.css'>
+      <link rel='stylesheet' href='css/custom.css'>
+   </head>
+   <body>
+      <div class="navbar-dark text-white">
+         <div class="container">
+            <div class="d-flex justify-content-center">
+               <nav class="navbar px-0 navbar-expand-lg navbar-dark">
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                     <div class="navbar-nav">
+                        <a href="#home" class="pl-md-0 p-3 text-light">Home</a>
+                        <a href="#teams" class="p-3 text-decoration-none text-light">I team</a>
+                        <a href="#writeups" class="p-3 text-decoration-none text-light">Write-ups</a>
+                        <a href="#media" class="p-3 text-decoration-none text-light">Media</a>
+                        <a href="#contacts" class="p-3 text-decoration-none text-light">Contatti</a>
+                     </div>
+                  </div>
+               </nav>
             </div>
-          </div>
-        
-
-          <div class="lead mb-3 text-mono text-success text-center">Competizione promossa dal professore Giampaolo Bella per il corso di Internet Security del Dipartimento di Matematica e Informatica dell'Università degli Studi di Catania.</div>
-
-          <p class="mt-5 text-spacey text-center">
-            Un Capture the Flag (abbreviato in CTF) è un gioco di hacking dove team o singoli cercano vulnerabilità in sistemi e software messi a disposizione dagli organizzatori della competizione al fine di sfruttarle e di collezionare le varie flag nascoste sul sistema bersaglio. Oltre a trovare e sfruttare vulnerabilità molte challenge consistono in risolvere puzzle logici o capire come funziona e come abusare un sistema.
-            Tipicamente la challenge viene svolta in modalità attack and defense ed organizzata per il corso di Internet Security del Dipartimento di Matematica e Informatica dal professore <a href="http://www.dmi.unict.it/~giamp/" target="_blank">Giampaolo Bella</a>.
-            A seguito delle disposizioni ministeriali e d'ateneo relative al Covid-19 quest'anno non è stato possibile svolgere le attività di presenza e per questo è stata proposta la nostra partecipazione alla competizione <a href="https://hsctf.com/">HSCTF 7</a> di tipo Jeopardy.
-          </p>
-
-          <p class="mt-5 text-spacey text-center">
-            Hanno partecipato alla competizione i team <b>Steamedcable</b> e <b>BoiledALU</b>. Al termine della competizione è stato creato il team <b>uniCTf_Team</b> per rappresentare 
-            il Dipartimento di Matematica e Informatica attraverso le flag raccolte dai due team. Il team <b>uniCTf_team</b> si è classificato <b>49esimo</b> con un totale di <b>6844 punti</b>.
-          </p>
-        </div>
+         </div>
       </div>
-  </div>
-</div>
-
-
-    <div class="container">
-      <h2 class="display-2 text-center">Teams</h2>
-      <div class="row">
-        <div class="col-md-6">
-          <table class="table">
-            <thead class="thead-dark">
-              <tr>
-                <th colspan="3">
-                  <h2>Steamedcable</h2>
-                </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>AttHack</td>
-                <td>Pierpaolo</td>
-                <td>Pecoraio</td>
-              </tr>
-              <tr>
-                <td>Herbrant</td>
-                <td>Davide</td>
-                <td>Carnemolla</td>
-              </tr>
-              <tr>
-                <td>Real.96</td>
-                <td>Federico</td>
-                <td>Gaeta</td>
-              </tr>
-
-            </tbody>
-          </table>
-        </div>
-        <div class="col-md-6">
-          <table class="table">
-            <thead class="thead-dark">
-              <tr>
-                <th colspan="3">
-                  <h2>BoiledALU</h2>
-                </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>orazio98</td>
-                <td>Orazio</td>
-                <td>Sciuto</td>
-              </tr>
-              <tr>
-                <td>peppedi</td>
-                <td>Giuseppe</td>
-                <td>Di Naso</td>
-              </tr>
-              <tr>
-                <td>teoc98</td>
-                <td>Matteo</td>
-                <td>Cavallaro</td>
-              </tr>
-
-            </tbody>
-          </table>
-        </div>
+      <div class="jumbotron bg-transparent mb-0 radius-0" id="home">
+         <div class="d-flex justify-content-center text-center">
+            <div class="row">
+               <div class="col">
+                  <h1 class="display-2 text-center">Capture the Flag 202<span class="vim-caret">0</span></h1>
+                  <div class="row">
+                     <div class="col-md-12 ">
+                        <img class="card-img-top" style="display:block; width: 20rem; height: 20rem; margin: auto;" src="media/hacker.svg" alt="Card image cap">
+                     </div>
+                  </div>
+                  <div class="lead mb-3 text-mono text-success text-center">Competizione promossa dal professore Giampaolo Bella per il corso di Internet Security del Dipartimento di Matematica e Informatica dell'Università degli Studi di Catania.</div>
+                  <p class="mt-5 text-spacey text-center">
+                     Un Capture the Flag (abbreviato in CTF) è un gioco di hacking dove team o singoli cercano vulnerabilità in sistemi e software messi a disposizione dagli organizzatori della competizione al fine di sfruttarle e di collezionare le varie flag nascoste sul sistema bersaglio. Oltre a trovare e sfruttare vulnerabilità molte challenge consistono in risolvere puzzle logici o capire come funziona e come abusare un sistema.
+                     Tipicamente la challenge viene svolta in modalità attack and defense ed organizzata per il corso di Internet Security del Dipartimento di Matematica e Informatica dal professore <a href="http://www.dmi.unict.it/~giamp/" target="_blank">Giampaolo Bella</a>.
+                     A seguito delle disposizioni ministeriali e d'ateneo relative al Covid-19 quest'anno non è stato possibile svolgere le attività di presenza e per questo è stata proposta la nostra partecipazione alla competizione <a href="https://hsctf.com/">HSCTF 7</a> di tipo Jeopardy.
+                  </p>
+                  <p class="mt-5 text-spacey text-center">
+                     Hanno partecipato alla competizione i team <b>Steamedcable</b> e <b>BoiledALU</b>. Al termine della competizione è stato creato il team <b>uniCTf_Team</b> per rappresentare 
+                     il Dipartimento di Matematica e Informatica attraverso le flag raccolte dai due team. Il team <b>uniCTf_team</b> si è classificato <b>49esimo</b> con un totale di <b>6844 punti</b>.
+                  </p>
+               </div>
+            </div>
+         </div>
       </div>
-    </div>
-
-
-<div class="jumbotron bg-transparent mb-0 radius-0" id="writeups">
-  <div class="container">
-      <div class="row">
-        <div class="col">
-          <h2 class="display-2 text-center">Write-ups</h2>
-          <div class="lead mb-3 text-mono text-success text-center">È possibile scaricare le nostre write-ups qui <a href="#!" class="btn btn-outline-success">
-            <span class="fas fa-download"></span>
-          </a>
-          </div>
-          <p class="text-center">
-            Inoltre è possibile consultare le write-ups del team <b>Steamedcable</b> su <a href="https://github.com/Herbrant/HSCTF7-writups" target="_blank">Herbrant/HSCTF7-writups</a>
-            che contiene i codici sorgenti e i relativi testi degli esercizi.
-          </p>
-        </div>
+      <div class="container">
+         <h2 class="display-2 text-center">Teams</h2>
+         <div class="row">
+            <div class="col-md-6">
+               <table class="table">
+                  <thead class="thead-dark">
+                     <tr>
+                        <th colspan="3">
+                           <h2>Steamedcable</h2>
+                        </th>
+                     </tr>
+                  </thead>
+                  <tbody>
+                     <tr>
+                        <td>AttHack</td>
+                        <td>Pierpaolo</td>
+                        <td>Pecoraio</td>
+                     </tr>
+                     <tr>
+                        <td>Herbrant</td>
+                        <td>Davide</td>
+                        <td>Carnemolla</td>
+                     </tr>
+                     <tr>
+                        <td>Real.96</td>
+                        <td>Federico</td>
+                        <td>Gaeta</td>
+                     </tr>
+                  </tbody>
+               </table>
+            </div>
+            <div class="col-md-6">
+               <table class="table">
+                  <thead class="thead-dark">
+                     <tr>
+                        <th colspan="3">
+                           <h2>BoiledALU</h2>
+                        </th>
+                     </tr>
+                  </thead>
+                  <tbody>
+                     <tr>
+                        <td>orazio98</td>
+                        <td>Orazio</td>
+                        <td>Sciuto</td>
+                     </tr>
+                     <tr>
+                        <td>peppedi</td>
+                        <td>Giuseppe</td>
+                        <td>Di Naso</td>
+                     </tr>
+                     <tr>
+                        <td>teoc98</td>
+                        <td>Matteo</td>
+                        <td>Cavallaro</td>
+                     </tr>
+                  </tbody>
+               </table>
+            </div>
+         </div>
       </div>
-  </div>
-</div>
-
-
-<div id="media" class="container">
-  <h2 class="display-2 text-center">Media</h2>
-<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-  <div class="carousel-inner" role="listbox">
-    <div class="carousel-item active">
-      <img class="d-block img-fluid" src="media/1.png" alt="photo1">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block img-fluid" src="media/2.png" alt="photo2">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block img-fluid" src="media/3.png" alt="photo3">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block img-fluid" src="media/4.png" alt="photo4">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block img-fluid" src="media/5.png" alt="photo5">
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-</div>
-
-
-<div id="contacts" class="container py-5">
-  <h2 class="display-2 text-center">Contatti</h2>
-  <div class="row">
-    <div class="col-md-4">
-      <div class="card text-center">
-        <div class="justify-content-center">
-          <img class="card-img-top"  src="media/pierpaolo.jpeg">
-        </div>
-        <div class="card-body">
-          <h4 class="card-title">Pierpaolo<br>Pecoraio</h4>
-          <a href="https://github.com/Pierpaolo791" target="_blank" class="btn btn-success">
-            <span class="fab fa-github"></span>
-          </a>
-
-          <a href="https://t.me/Pierpaolo791" target="_blank" class="btn btn-success">
-            <span class="fab fa-telegram"></span>
-          </a>
-          <a href="https://www.linkedin.com/in/pierpaolo-pecoraio/" target="_blank" class="btn btn-success">
-            <span class="fab fa-linkedin"></span>
-          </a>
-        </div>
+      <div class="jumbotron bg-transparent mb-0 radius-0" id="writeups">
+         <div class="container">
+            <div class="row">
+               <div class="col">
+                  <h2 class="display-2 text-center">Write-ups</h2>
+                  <div class="lead mb-3 text-mono text-success text-center">È possibile scaricare le nostre write-ups qui <a href="#!" class="btn btn-outline-success">
+                     <span class="fas fa-download"></span>
+                     </a>
+                  </div>
+                  <p class="text-center">
+                     Inoltre è possibile consultare le write-ups del team <b>Steamedcable</b> su <a href="https://github.com/Herbrant/HSCTF7-writups" target="_blank">Herbrant/HSCTF7-writups</a>
+                     che contiene i codici sorgenti e i relativi testi degli esercizi.
+                  </p>
+               </div>
+            </div>
+         </div>
       </div>
-    </div>
-    <div class="col-md-4">
-      <div class="card text-center">
-        <div class=" justify-content-center">
-          <img class="card-img-top"  src="media/davide.png" alt="Card image cap">
-        </div>
-        <div class="card-body">
-          <h4 class="card-title">Davide<br>Carnemolla</h4>
-          <a href="https://github.com/Herbrant" target="_blank" class="btn btn-success">
-            <span class="fab fa-github"></span>
-          </a>
-
-          <a href="https://t.me/Herbrant" target="_blank" class="btn btn-success">
-            <span class="fab fa-telegram"></span>
-          </a>
-          <a href="https://www.linkedin.com/in/davide-carnemolla/" target="_blank" class="btn btn-success">
-            <span class="fab fa-linkedin"></span>
-          </a>
-
-        </div>
+      <div id="media" class="container">
+         <h2 class="display-2 text-center">Media</h2>
+         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner" role="listbox">
+               <div class="carousel-item active">
+                  <img class="d-block img-fluid" src="media/1.png" alt="photo1">
+               </div>
+               <div class="carousel-item">
+                  <img class="d-block img-fluid" src="media/2.png" alt="photo2">
+               </div>
+               <div class="carousel-item">
+                  <img class="d-block img-fluid" src="media/3.png" alt="photo3">
+               </div>
+               <div class="carousel-item">
+                  <img class="d-block img-fluid" src="media/4.png" alt="photo4">
+               </div>
+               <div class="carousel-item">
+                  <img class="d-block img-fluid" src="media/5.png" alt="photo5">
+               </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+            </a>
+         </div>
       </div>
-    </div>
-    <div class="col-md-4">
-      <div class="card text-center">
-        <div class="justify-content-center">
-          <img class="card-img-top"  src="media/federico.png" alt="Card image cap">
-        </div>
-        <div class="card-body">
-          <h4 class="card-title">Federico<br>Gaeta</h4>
-          <a href="https://github.com/Real96" target="_blank" class="btn btn-success">
-            <span class="fab fa-github"></span>
-          </a>
-
-          <a href="https://t.me/Real_96" target="_blank" class="btn btn-success">
-            <span class="fab fa-telegram"></span>
-          </a>
-          <a href="https://www.linkedin.com/in/federico-gaeta-5921901b0/" target="_blank" class="btn btn-success">
-            <span class="fab fa-linkedin"></span>
-          </a>
-        </div>
+      <div id="contacts" class="container py-5">
+         <h2 class="display-2 text-center">Contatti</h2>
+         <div class="row">
+            <div class="col-md-4">
+               <div class="card text-center">
+                  <div class="justify-content-center">
+                     <img class="card-img-top"  src="media/pierpaolo.jpeg">
+                  </div>
+                  <div class="card-body">
+                     <h4 class="card-title">Pierpaolo<br>Pecoraio</h4>
+                     <a href="https://github.com/Pierpaolo791" target="_blank" class="btn btn-success">
+                     <span class="fab fa-github"></span>
+                     </a>
+                     <a href="https://t.me/Pierpaolo791" target="_blank" class="btn btn-success">
+                     <span class="fab fa-telegram"></span>
+                     </a>
+                     <a href="https://www.linkedin.com/in/pierpaolo-pecoraio/" target="_blank" class="btn btn-success">
+                     <span class="fab fa-linkedin"></span>
+                     </a>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-4">
+               <div class="card text-center">
+                  <div class=" justify-content-center">
+                     <img class="card-img-top"  src="media/davide.png" alt="Card image cap">
+                  </div>
+                  <div class="card-body">
+                     <h4 class="card-title">Davide<br>Carnemolla</h4>
+                     <a href="https://github.com/Herbrant" target="_blank" class="btn btn-success">
+                     <span class="fab fa-github"></span>
+                     </a>
+                     <a href="https://t.me/Herbrant" target="_blank" class="btn btn-success">
+                     <span class="fab fa-telegram"></span>
+                     </a>
+                     <a href="https://www.linkedin.com/in/davide-carnemolla/" target="_blank" class="btn btn-success">
+                     <span class="fab fa-linkedin"></span>
+                     </a>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-4">
+               <div class="card text-center">
+                  <div class="justify-content-center">
+                     <img class="card-img-top"  src="media/federico.png" alt="Card image cap">
+                  </div>
+                  <div class="card-body">
+                     <h4 class="card-title">Federico<br>Gaeta</h4>
+                     <a href="https://github.com/Real96" target="_blank" class="btn btn-success">
+                     <span class="fab fa-github"></span>
+                     </a>
+                     <a href="https://t.me/Real_96" target="_blank" class="btn btn-success">
+                     <span class="fab fa-telegram"></span>
+                     </a>
+                     <a href="https://www.linkedin.com/in/federico-gaeta-5921901b0/" target="_blank" class="btn btn-success">
+                     <span class="fab fa-linkedin"></span>
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-md-4">
+               <div class="card text-center">
+                  <div class="justify-content-center">
+                     <img class="card-img-top" src="media/orazio.jpg" alt="Card image cap">
+                  </div>
+                  <div class="card-body">
+                     <h4 class="card-title">Orazio<br>Sciuto</h4>
+                     <a href="https://github.com/orazios98" target="_blank" class="btn btn-success">
+                     <span class="fab fa-github"></span>
+                     </a>
+                     <a href="https://t.me/zar98s" target="_blank" class="btn btn-success">
+                     <span class="fab fa-telegram"></span>
+                     </a>
+                     <a href="https://www.linkedin.com/in/orazio-sciuto-a9a78812b/" target="_blank" class="btn btn-success">
+                     <span class="fab fa-linkedin"></span>
+                     </a>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-4">
+               <div class="card text-center">
+                  <div class=" justify-content-center">
+                     <img class="card-img-top"  src="media/giuseppe.png" alt="Card image cap">
+                  </div>
+                  <div class="card-body">
+                     <h4 class="card-title">Giuseppe<br>Di Naso</h4>
+                     <a href="https://github.com/peppedi98" target="_blank" class="btn btn-success">
+                     <span class="fab fa-github"></span>
+                     </a>
+                     <a href="https://t.me/Peppedis" target="_blank" class="btn btn-success">
+                     <span class="fab fa-telegram"></span>
+                     </a>
+                     <a href="https://www.linkedin.com/in/giuseppe-di-naso-7633301a5/" target="_blank" class="btn btn-success">
+                     <span class="fab fa-linkedin"></span>
+                     </a>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-4">
+               <div class="card text-center">
+                  <div class="justify-content-center">
+                     <img class="card-img-top"  src="media/matteo.png" alt="Card image cap">
+                  </div>
+                  <div class="card-body">
+                     <h4 class="card-title">Matteo<br>Cavallaro</h4>
+                     <a href="https://github.com/teoc98" target="_blank" class="btn btn-success">
+                     <span class="fab fa-github"></span>
+                     </a>
+                     <a href="https://t.me/teoc98" target="_blank" class="btn btn-success">
+                     <span class="fab fa-telegram"></span>
+                     </a>
+                     <a href="https://www.linkedin.com/in/matteo-cavallaro/" target="_blank" class="btn btn-success">
+                     <span class="fab fa-linkedin"></span>
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
       </div>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-md-4">
-      <div class="card text-center">
-        <div class="justify-content-center">
-          <img class="card-img-top" src="media/orazio.jpg" alt="Card image cap">
-        </div>
-        <div class="card-body">
-          <h4 class="card-title">Orazio<br>Sciuto</h4>
-          <a href="https://github.com/orazios98" target="_blank" class="btn btn-success">
-            <span class="fab fa-github"></span>
-          </a>
-
-          <a href="https://t.me/zar98s" target="_blank" class="btn btn-success">
-            <span class="fab fa-telegram"></span>
-          </a>
-          <a href="https://www.linkedin.com/in/orazio-sciuto-a9a78812b/" target="_blank" class="btn btn-success">
-            <span class="fab fa-linkedin"></span>
-          </a>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4">
-      <div class="card text-center">
-        <div class=" justify-content-center">
-          <img class="card-img-top"  src="media/giuseppe.png" alt="Card image cap">
-        </div>
-        <div class="card-body">
-          <h4 class="card-title">Giuseppe<br>Di Naso</h4>
-          <a href="https://github.com/peppedi98" target="_blank" class="btn btn-success">
-            <span class="fab fa-github"></span>
-          </a>
-
-          <a href="https://t.me/Peppedis" target="_blank" class="btn btn-success">
-            <span class="fab fa-telegram"></span>
-          </a>
-          <a href="https://www.linkedin.com/in/giuseppe-di-naso-7633301a5/" target="_blank" class="btn btn-success">
-            <span class="fab fa-linkedin"></span>
-          </a>
-
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4">
-      <div class="card text-center">
-        <div class="justify-content-center">
-          <img class="card-img-top"  src="media/matteo.png" alt="Card image cap">
-        </div>
-        <div class="card-body">
-          <h4 class="card-title">Matteo<br>Cavallaro</h4>
-          <a href="https://github.com/teoc98" target="_blank" class="btn btn-success">
-            <span class="fab fa-github"></span>
-          </a>
-
-          <a href="https://t.me/teoc98" target="_blank" class="btn btn-success">
-            <span class="fab fa-telegram"></span>
-          </a>
-          <a href="https://www.linkedin.com/in/matteo-cavallaro/" target="_blank" class="btn btn-success">
-            <span class="fab fa-linkedin"></span>
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
-  </body>
+      <!-- Optional JavaScript -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+   </body>
 </html>
