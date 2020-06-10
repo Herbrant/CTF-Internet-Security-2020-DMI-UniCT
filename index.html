@@ -14,6 +14,7 @@
     
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel='stylesheet' href='//cdn.jsdelivr.net/font-hack/2.020/css/hack.min.css'>
+    <link rel='stylesheet' href='css/custom.css'>
     
   </head>
   <body>
@@ -41,12 +42,14 @@
 
 
 <div class="jumbotron bg-transparent mb-0 radius-0" id="home">
-  <div class="d-flex justify-content-center">
+  <div class="d-flex justify-content-center text-center>
       <div class="row">
         <div class="col">
           <h1 class="display-2 text-center">Capture the Flag 202<span class="vim-caret">0</span></h1>
-          <div class="d-flex justify-content-center">
-            <img class="card-img-top" style="width: 20rem; height: 20rem;" src="media/hacker.svg" alt="Card image cap">
+          <div class="row">
+            <div class="col-md-12 ">
+              <img class="card-img-top" style="display:block; width: 20rem; height: 20rem; margin: auto;" src="media/hacker.svg" alt="Card image cap">
+            </div>
           </div>
         
 
@@ -67,67 +70,71 @@
   </div>
 </div>
 
-<div class="d-flex justify-content-center">
-<div class="jumbotron bg-transparent mb-0 radius-0" id="teams">
-  <div class="container">
-    <h2 class="display-2 text-center">Teams</h2>
-  <table class="table table-hover table-striped">
-    <table class="table table-hover table-striped">
-      <thead class="thead-dark">
-        <tr>
-          <th><h2>Steamedcable</h2></th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>AttHack</td>
-          <td>Pierpaolo</td>
-          <td>Pecoraio</td>
-        </tr>
-        <tr>
-          <td>Herbrant</td>
-          <td>Davide</td>
-          <td>Carnemolla</td>
-        </tr>
-        <tr>
-          <td>Real.96</td>
-          <td>Federico</td>
-          <td>Gaeta</td>
-        </tr>
-    
-      </tbody>
 
-      <thead class="thead-dark">
-        <tr>
-          <th><h2>BoiledALU</h2></th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>orazio98</td>
-          <td>Orazio</td>
-          <td>Sciuto</td>
-        </tr>
-        <tr>
-          <td>peppedi</td>
-          <td>Giuseppe</td>
-          <td>Di Naso</td>
-        </tr>
-        <tr>
-          <td>teoc98</td>
-          <td>Matteo</td>
-          <td>Cavallaro</td>
-        </tr>
-    
-      </tbody>
-    </table>
-    
+    <div class="container">
+      <h2 class="display-2 text-center">Teams</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <table class="table">
+            <thead class="thead-dark">
+              <tr>
+                <th colspan="3">
+                  <h2>Steamedcable</h2>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>AttHack</td>
+                <td>Pierpaolo</td>
+                <td>Pecoraio</td>
+              </tr>
+              <tr>
+                <td>Herbrant</td>
+                <td>Davide</td>
+                <td>Carnemolla</td>
+              </tr>
+              <tr>
+                <td>Real.96</td>
+                <td>Federico</td>
+                <td>Gaeta</td>
+              </tr>
 
-    </tbody>
-  </table>
-</div>
-</div>
-</div>
+            </tbody>
+          </table>
+        </div>
+        <div class="col-md-6">
+          <table class="table">
+            <thead class="thead-dark">
+              <tr>
+                <th colspan="3">
+                  <h2>BoiledALU</h2>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>orazio98</td>
+                <td>Orazio</td>
+                <td>Sciuto</td>
+              </tr>
+              <tr>
+                <td>peppedi</td>
+                <td>Giuseppe</td>
+                <td>Di Naso</td>
+              </tr>
+              <tr>
+                <td>teoc98</td>
+                <td>Matteo</td>
+                <td>Cavallaro</td>
+              </tr>
+
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
 
 <div class="jumbotron bg-transparent mb-0 radius-0" id="writeups">
   <div class="container">
@@ -182,135 +189,133 @@
 
 <div id="contacts" class="container py-5">
   <h2 class="display-2 text-center">Contatti</h2>
-  <div class="container">
-  <div class="d-flex justify-content-center">
-    <div class="card">
-      <div class="d-flex justify-content-center">
-        <img class="card-img-top" style="width: 15rem; height: 15rem;" src="media/pierpaolo.jpeg" alt="Card image cap">
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card text-center">
+        <div class="justify-content-center">
+          <img class="card-img-top"  src="media/pierpaolo.jpeg">
         </div>
-      <div class="card-body">
-        <h4 class="card-title">Pierpaolo Pecoraio</h4>
+        <div class="card-body">
+          <h4 class="card-title">Pierpaolo<br>Pecoraio</h4>
           <a href="https://github.com/Pierpaolo791" target="_blank" class="btn btn-success">
             <span class="fab fa-github"></span>
-            </a>
+          </a>
 
-            <a href="https://t.me/Pierpaolo791" target="_blank" class="btn btn-success">
-              <span class="fab fa-telegram"></span>
-              </a>
-	 <a href="https://www.linkedin.com/in/pierpaolo-pecoraio/" target="_blank" class="btn btn-success">
-              <span class="fab fa-linkedin"></span>
-              </a>
+          <a href="https://t.me/Pierpaolo791" target="_blank" class="btn btn-success">
+            <span class="fab fa-telegram"></span>
+          </a>
+          <a href="https://www.linkedin.com/in/pierpaolo-pecoraio/" target="_blank" class="btn btn-success">
+            <span class="fab fa-linkedin"></span>
+          </a>
+        </div>
       </div>
     </div>
-
-    <div class="d-flex justify-content-center">
-      <div class="card">
-        <div class="d-flex justify-content-center">
-        <img class="card-img-top" style="width: 15rem; height: 15rem;" src="media/davide.png" alt="Card image cap">
+    <div class="col-md-4">
+      <div class="card text-center">
+        <div class=" justify-content-center">
+          <img class="card-img-top"  src="media/davide.png" alt="Card image cap">
         </div>
         <div class="card-body">
-          <h4 class="card-title">Davide Carnemolla</h4>
+          <h4 class="card-title">Davide<br>Carnemolla</h4>
           <a href="https://github.com/Herbrant" target="_blank" class="btn btn-success">
             <span class="fab fa-github"></span>
-            </a>
+          </a>
 
-            <a href="https://t.me/Herbrant" target="_blank" class="btn btn-success">
-              <span class="fab fa-telegram"></span>
-              </a>
-<a href="https://www.linkedin.com/in/davide-carnemolla/" target="_blank" class="btn btn-success">
-              <span class="fab fa-linkedin"></span>
-              </a>
-          
-        </div>
-      </div>
+          <a href="https://t.me/Herbrant" target="_blank" class="btn btn-success">
+            <span class="fab fa-telegram"></span>
+          </a>
+          <a href="https://www.linkedin.com/in/davide-carnemolla/" target="_blank" class="btn btn-success">
+            <span class="fab fa-linkedin"></span>
+          </a>
 
-      <div class="d-flex justify-content-center">
-        <div class="card">
-          <img class="card-img-top" style="width: 15rem; height: 15rem;" src="media/federico.png" alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title">Federico Gaeta</h4>
-              <a href="https://github.com/Real96" target="_blank" class="btn btn-success">
-                <span class="fab fa-github"></span>
-                </a>
-    
-                <a href="https://t.me/Real_96" target="_blank" class="btn btn-success">
-                  <span class="fab fa-telegram"></span>
-                  </a>
-<a href="https://www.linkedin.com/in/federico-gaeta-5921901b0/" target="_blank" class="btn btn-success">
-              <span class="fab fa-linkedin"></span>
-              </a>
         </div>
       </div>
     </div>
+    <div class="col-md-4">
+      <div class="card text-center">
+        <div class="justify-content-center">
+          <img class="card-img-top"  src="media/federico.png" alt="Card image cap">
+        </div>
+        <div class="card-body">
+          <h4 class="card-title">Federico<br>Gaeta</h4>
+          <a href="https://github.com/Real96" target="_blank" class="btn btn-success">
+            <span class="fab fa-github"></span>
+          </a>
+
+          <a href="https://t.me/Real_96" target="_blank" class="btn btn-success">
+            <span class="fab fa-telegram"></span>
+          </a>
+          <a href="https://www.linkedin.com/in/federico-gaeta-5921901b0/" target="_blank" class="btn btn-success">
+            <span class="fab fa-linkedin"></span>
+          </a>
+        </div>
+      </div>
     </div>
   </div>
-    <div class="container">
-    <div class="d-flex justify-content-center">
-      <div class="card">
-        <div class="d-flex justify-content-center">
-          <img class="card-img-top" style="width: 15rem; height: rem;" src="media/orazio.jpg" alt="Card image cap">
-          </div>
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card text-center">
+        <div class="justify-content-center">
+          <img class="card-img-top" src="media/orazio.jpg" alt="Card image cap">
+        </div>
         <div class="card-body">
-          <h4 class="card-title">Orazio Sciuto</h4>
+          <h4 class="card-title">Orazio<br>Sciuto</h4>
           <a href="https://github.com/orazios98" target="_blank" class="btn btn-success">
             <span class="fab fa-github"></span>
-            </a>
+          </a>
 
-            <a href="https://t.me/zar98s" target="_blank" class="btn btn-success">
-              <span class="fab fa-telegram"></span>
-             </a>
-<a href="https://www.linkedin.com/in/orazio-sciuto-a9a78812b/" target="_blank" class="btn btn-success">
-              <span class="fab fa-linkedin"></span>
-              </a>
+          <a href="https://t.me/zar98s" target="_blank" class="btn btn-success">
+            <span class="fab fa-telegram"></span>
+          </a>
+          <a href="https://www.linkedin.com/in/orazio-sciuto-a9a78812b/" target="_blank" class="btn btn-success">
+            <span class="fab fa-linkedin"></span>
+          </a>
         </div>
-      </div>
-  
-      <div class="d-flex justify-content-center">
-        <div class="card">
-          <div class="d-flex justify-content-center">
-            <img class="card-img-top" style="width: 15rem; height: rem;" src="media/giuseppe.png" alt="Card image cap">
-            </div>
-          <div class="card-body">
-            <h4 class="card-title">Giuseppe Di Naso</h4>
-            <a href="https://github.com/peppedi98" target="_blank" class="btn btn-success">
-              <span class="fab fa-github"></span>
-              </a>
-  
-              <a href="https://t.me/Peppedis" target="_blank" class="btn btn-success">
-                <span class="fab fa-telegram"></span>
-                </a>
-<a href="https://www.linkedin.com/in/giuseppe-di-naso-7633301a5/" target="_blank" class="btn btn-success">
-              <span class="fab fa-linkedin"></span>
-              </a>
-            
-          </div>
-        </div>
-  
-        <div class="d-flex justify-content-center">
-          <div class="card">
-            <div class="d-flex justify-content-center">
-              <img class="card-img-top" style="width: 15rem; height: rem;" src="media/matteo.png" alt="Card image cap">
-              </div>
-            <div class="card-body">
-              <h4 class="card-title">Matteo Cavallaro</h4>
-                <a href="https://github.com/teoc98" target="_blank" class="btn btn-success">
-                  <span class="fab fa-github"></span>
-                  </a>
-      
-                  <a href="https://t.me/teoc98" target="_blank" class="btn btn-success">
-                    <span class="fab fa-telegram"></span>
-                    </a>
-<a href="https://www.linkedin.com/in/matteo-cavallaro/" target="_blank" class="btn btn-success">
-              <span class="fab fa-linkedin"></span>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
       </div>
     </div>
-</div>
+    <div class="col-md-4">
+      <div class="card text-center">
+        <div class=" justify-content-center">
+          <img class="card-img-top"  src="media/giuseppe.png" alt="Card image cap">
+        </div>
+        <div class="card-body">
+          <h4 class="card-title">Giuseppe<br>Di Naso</h4>
+          <a href="https://github.com/peppedi98" target="_blank" class="btn btn-success">
+            <span class="fab fa-github"></span>
+          </a>
 
+          <a href="https://t.me/Peppedis" target="_blank" class="btn btn-success">
+            <span class="fab fa-telegram"></span>
+          </a>
+          <a href="https://www.linkedin.com/in/giuseppe-di-naso-7633301a5/" target="_blank" class="btn btn-success">
+            <span class="fab fa-linkedin"></span>
+          </a>
+
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card text-center">
+        <div class="justify-content-center">
+          <img class="card-img-top"  src="media/matteo.png" alt="Card image cap">
+        </div>
+        <div class="card-body">
+          <h4 class="card-title">Matteo<br>Cavallaro</h4>
+          <a href="https://github.com/teoc98" target="_blank" class="btn btn-success">
+            <span class="fab fa-github"></span>
+          </a>
+
+          <a href="https://t.me/teoc98" target="_blank" class="btn btn-success">
+            <span class="fab fa-telegram"></span>
+          </a>
+          <a href="https://www.linkedin.com/in/matteo-cavallaro/" target="_blank" class="btn btn-success">
+            <span class="fab fa-linkedin"></span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
