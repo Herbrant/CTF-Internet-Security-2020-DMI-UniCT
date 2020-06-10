@@ -1,0 +1,8 @@
+#contacts img {
+ padding: 10pt 10pt 10pt 10pt;
+ border-radius: 5px !important;
+}
+
+#contacts .row {
+    padding-top: 10pt;
+}
